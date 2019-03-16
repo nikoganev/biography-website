@@ -1,0 +1,9 @@
+enable  : true
+title   : FOLLOW ME ON SOCIAL MEDIA
+members  :
+  - name  : Niko Venag
+    image : images/team/team-1.jpg
+    facebook    : https://www.fb.com/themefisher
+    twitter     : https://www.twitter.com/themefisher
+    linkedIn    : https://www.linkedin.com/themefisher
+    googleplus  : https://plus.google.com/themefisher

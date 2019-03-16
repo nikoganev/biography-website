@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+
+{{ partial "page-title.html" . }}
+
+{{ if .Site.Data.service.enable }}
+{{ "<!-- Service Section Start -->" | safeHTML }}
+
+{{ "<!-- Service Section End -->" | safeHTML }}
+{{ end }}
+
+{{ partial "feature.html" . }}
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}

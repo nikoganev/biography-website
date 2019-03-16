@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on NikoVenag - Web and Digital Marketing</title>
+    <link>https://nikovenag.com/portfolio/</link>
+    <description>Recent content in Portfolios on NikoVenag - Web and Digital Marketing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Jul 2018 16:59:54 +0600</lastBuildDate>
+    
+	<atom:link href="https://nikovenag.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Product/Services Page</title>
+      <link>https://nikovenag.com/portfolio/caramel-bottle/</link>
+      <pubDate>Thu, 12 Jul 2018 16:59:54 +0600</pubDate>
+      
+      <guid>https://nikovenag.com/portfolio/caramel-bottle/</guid>
+      <description>FRESH THEME Hugo Fresh theme is a template built for a static websites. It&amp;rsquo;s fully responsive on phone and different browsers. You can find a live demo here. This theme is for landing pages only. If you need a blog page or a separate page you would need to use another Theme, choose from my Portfolio.
+This Theme is supported by a community of developers. You would get automatically all the new updates.</description>
+    </item>
+    
+    <item>
+      <title>Personal Page</title>
+      <link>https://nikovenag.com/portfolio/shopping-bag-concept/</link>
+      <pubDate>Thu, 12 Jul 2018 16:58:55 +0600</pubDate>
+      
+      <guid>https://nikovenag.com/portfolio/shopping-bag-concept/</guid>
+      <description>TIMER THEME Using the Timer Template I can create a Website focused on a Personal/Individual feel. You can find a live demo here. If you are a Freelancer and you want to sell your skills, this is the best choice for your Website. Suitable for creative companies and agencies which need a professional way to showcase their projects, services, and sell their products. This Theme has been designed and built with a ‘user first’ approach; it offers a beautifully elegant, simple and well-spaced template that follows the principles of design.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio Page</title>
+      <link>https://nikovenag.com/portfolio/makeup-element/</link>
+      <pubDate>Thu, 12 Jul 2018 16:57:54 +0600</pubDate>
+      
+      <guid>https://nikovenag.com/portfolio/makeup-element/</guid>
+      <description>PORTFOLIO THEME Creative portfolio is a clean and elegant template mainly made for designers and creatives. It has a very nice landing page, a comments system and contact forms. You can find a live demo here
+Template is fully responsive on mobile phones and through different browsers.
+Supports different pages:
+ About Get in Touch  This Theme is supported by a community of developers. You would get automatically all the new updates.</description>
+    </item>
+    
+    <item>
+      <title>E-Commerce Catalogue</title>
+      <link>https://nikovenag.com/portfolio/table-design/</link>
+      <pubDate>Thu, 12 Jul 2018 16:56:54 +0600</pubDate>
+      
+      <guid>https://nikovenag.com/portfolio/table-design/</guid>
+      <description>SHOPPING CATALOGUE THEME Shopping product catalogue theme gives you a categorized display of all your products that you want to showcase to your prospective customers.
+Features:
+ Product catalogue Support for product variants Specify price variations Specify stock availability Import data from Shopify Lazy Loading images  I will connect your website with Stripe which will add a checkout platform for checkingout your clients when they buy products on website.</description>
+    </item>
+    
+    <item>
+      <title>Biography Page</title>
+      <link>https://nikovenag.com/portfolio/bottle-mockup/</link>
+      <pubDate>Thu, 12 Jul 2018 16:54:54 +0600</pubDate>
+      
+      <guid>https://nikovenag.com/portfolio/bottle-mockup/</guid>
+      <description>BIOGRAPHY THEME This theme makes it easy to create a beautiful website using Markdown.
+Key Features:
+ Easily manage various content including homepage, blog posts, publications, talks, slides, and projects Extensible via color themes and widgets/plugins Write in Markdown for easy formatting and code highlighting, with LaTeX for mathematical expressions Social/academic network linking, Google Analytics, and Disqus comments Responsive and mobile friendly Simple and refreshing one page design Multilingual and easy to customize  This Theme is supported by a community of developers.</description>
+    </item>
+    
+    <item>
+      <title>Blog Page</title>
+      <link>https://nikovenag.com/portfolio/dew-drop/</link>
+      <pubDate>Thu, 12 Jul 2018 16:53:54 +0600</pubDate>
+      
+      <guid>https://nikovenag.com/portfolio/dew-drop/</guid>
+      <description>BLOG THEME A beautiful, responsive blog and homepage theme with support for features like search and math typesetting. This is perfect for showcasing your writing and presentations. You can find a live demo here where you can see its features in action and learn more. Blog Theme is targeted to technical writers and speakers: people such as software engineers and open source developers, who want a website for their technical work, such as blogging about software engineering.</description>
+    </item>
+    
+  </channel>
+</rss>

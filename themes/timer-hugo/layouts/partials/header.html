@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+    {{ "<!-- Basic Page Needs -->" | safeHTML }}
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="description" content="Designer and Web Developer Service page where you can find the best solution for your Business. I offer IT and Marketing Packages that you can choose from.">
+    <meta name="keywords" content="web developer, create website, Marketing, web Designer, front-end developer, SEO optimization, service, portfolio, website template, freelancer, product, service page, biography, blog, ecommerce, content writing, social media, engineer, learn more, experienced developer, low-price packages, low-cost, digital marketing">
+    <meta name="author" content="NikoVenag">
+    <link rel="icon" href="/images/favicon.ico">
+    <meta property="og:title" content="NikoVenag" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property='st:title' content='NikoVenag' />
+    <meta name="twitter:card" content="summary" /> 
+    <meta property="og:image" content="/images/ICON-NIKOVENAG.png">
+    <meta property="og:url" content="/images/ICON-NIKOVENAG.png">
+    <meta name="twitter:image" content="/images/ICON-NIKOVENAG.png">
+    <meta property="og:image" content="/images/ICON-NIKOVENAG.png">
+    <meta property="og:image:width" content="0">
+    <meta property="og:image:height" content="0">
+    <meta name="twitter:image" content="/images/ICON-NIKOVENAG.png">
+    {{ .Hugo.Generator }}
+    
+    {{ "<!-- Mobile Specific Metas -->" | safeHTML }}
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }}</title>
+    <link rel="icon" href="/images/favicon.ico">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127466599-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-127466599-1');
+    </script>
+
+
+    {{ "<!-- Twitter Bootstrs CSS -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ "plugins/bootstrap/bootstrap.min.css" | absURL }}">
+    {{ "<!-- Ionicons Fonts Css -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ "plugins/ionicons/ionicons.min.css" | absURL }}">
+    {{ "<!-- animate css -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ "plugins/animate-css/animate.css" | absURL }}">
+    {{ "<!-- Hero area slider css-->" | safeHTML }}
+    <link rel="stylesheet" href="{{ "plugins/slider/slider.css" | absURL }}">
+    {{ "<!-- owl craousel css -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ "plugins/owl-carousel/owl.carousel.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "plugins/owl-carousel/owl.theme.css" | absURL }}">
+    {{ "<!-- Fancybox -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ "plugins/facncybox/jquery.fancybox.css" | absURL }}">
+    {{ "<!-- hover -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ "plugins/hover/hover-min.css" | absURL }}">
+    {{ "<!-- template main css file -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
+</head>
+
+<body>
+
+<section class="top-bar animated-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+                        <img src="{{ .Site.Params.logo | absURL }}" alt="Niko Venag Developer">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ .Site.BaseURL }}">{{ with .Site.Params.home }}{{ . }}{{ end }}</a>
+                            </li>
+                            {{ range .Site.Menus.nav }}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
