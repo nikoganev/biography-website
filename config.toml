@@ -2,7 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 theme = "sada-template"
 staticDir= "static"
-publishDir= "public"
+publishDir= "docs"
 
 [params]
     title = "Sada Theme"
