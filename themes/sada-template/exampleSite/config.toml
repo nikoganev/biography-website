@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-theme = "sada"
+theme = "sada-template"
 
 [params]
     title = "Sada Theme"
