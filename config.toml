@@ -5,16 +5,16 @@ staticDir= "static"
 publishDir= "docs"
 
 [params]
-    title = "Sada Theme"
-    author = "Darshan Baral"
-    description = "Simple bootstrap 4 theme"
+    title = "Nikolay Ganev"
+    author = "System Engineer"
+    description = "Having background in building mobile applications using jQuery, Cordova Frameworks and other technologies. Currently working as a System Engineer in Fintech industry. As a side hustle I'm building websites for small businesses and helping them get more clients "
     copyright = ""
     copyright_link = ""
 
     # Profile section
     [params.profile]
-        name = "Sada Theme"
-        photo = "profile.jpg"
+        name = "Nikolay Ganev"
+        photo = "nikolayganev.png"
 
     # Section for links to social websites
     [params.social]
@@ -23,26 +23,15 @@ publishDir= "docs"
         [[params.social.list]]
         class = "fab"
         icon = "fa-linkedin-in"
-        url = "#"
+        url = "https://www.linkedin.com/in/nikoganev/"
         title = "LinkedIn"
 
         [[params.social.list]]
         class = "fab"
         icon = "fa-github"
-        url = "#"
+        url = "https://github.com/nikoganev"
         title = "GitHub"
-		
-		[[params.social.list]]
-        class = "ai"
-        icon = "ai-google-scholar"
-        url = "#"
-        title = "Google Scholar"
-		
-		[[params.social.list]]
-        class = "ai"
-        icon = "ai-researchgate"
-        url = "#"
-        title = "ResearchGate"		
+			
 
     # Education section
     [params.education]
