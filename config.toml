@@ -6,8 +6,8 @@ publishDir= "docs"
 
 [params]
     title = "Nikolay Ganev"
-    author = "System Engineer"
-    description = "Having background in building mobile applications using jQuery, Cordova Frameworks and other technologies. Currently working as a System Engineer in Fintech industry. As a side hustle I'm building websites for small businesses and helping them get more clients "
+    author = "Nikolay Ganev"
+    description = "System Engineer"
     copyright = ""
     copyright_link = ""
 
@@ -38,16 +38,14 @@ publishDir= "docs"
         title = "Education"
 
         [[params.education.list]]
-        degree = "Masters in Degree 1"
-        college = "University Number 1"
-        dates = "2016 - 2018"
-        thesis_title = "Title of the dissertation"
-        thesis_link = "#"
+        degree = "Biotechnology"
+        college = "University of Vic"
+        dates = "2012 - 2015"
 
         [[params.education.list]]
-        degree = "Bachelors in Degree 2"
-        college = "University Number 2"
-        dates = "2010 - 2014"
+        degree = "Front End and Mobile App Developer"
+        college = "Bootcamp - Barcelona Activa"
+        dates = "2016 - 2016"
 
     # Languages section
     [params.language]
@@ -58,8 +56,12 @@ publishDir= "docs"
         level = "Fluent"
 				
         [[params.language.list]]
-        language = "Bird"
-        level = "Basic"
+        language = "Spanish"
+        level = "Fluent"
+
+        [[params.language.list]]
+        language = "Catalan"
+        level = "Fluent"
 
     # Interests section
     [params.hobbies]
@@ -72,13 +74,13 @@ publishDir= "docs"
         interest = "Music"
 
         [[params.hobbies.list]]
-        interest = "Flying"
+        interest = "Stockmarket"
 
         [[params.hobbies.list]]
-        interest = "Baking"
+        interest = "Fitness/Workingout"
 
     [params.aboutme]
-        description = "Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "Front end and Back end Certified Developer. Having background in building mobile applications using jQuery, Cordova Frameworks and other technologies. Currently working as a System Engineer in Fintech industry. In my free time I'm building websites for small businesses and helping them get more clients using Hubspot Inbound for lead generation. I'm certified in Hubspot Marketing owning 5 certifications in Sales, Content Marketing, Inbound Strategies, Design and Email Marketing. "
 
     # Experiences section
     [params.experiences]
@@ -86,17 +88,40 @@ publishDir= "docs"
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Job Number 1"
+        position = "System Engineer"
         dates = "2018 - *Present*"
-		link = "#"
-        company = "Company name 1"
+		link = "www.finos.org"
+        company = "FINOS - Fintech Open Source Foundation"
 
         [[params.jobs.list]]
-        position = "Job Number 2"
-        dates = "2016 - 2018"
+        position = "System Engineer"
+        dates = "2017 - 2018"
 		link = "#"
-        company = "Company name 2"
-        details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        company = "Symphony Foundation"
+        
+        [[params.jobs.list]]
+        position = "Front End Developer"
+        dates = "2017 - 2017"
+        link = "#"
+        company = "Symphony Foundation"
+
+        [[params.jobs.list]]
+        position = "Mobile App Developer"
+        dates = "2016 - 2016"
+        link = "#"
+        company = "Self employed"
+
+        [[params.jobs.list]]
+        position = "Video Editor Youtube"
+        dates = "2014-2016"
+        link = "#"
+        company = "Youtube Creator"
+
+        [[params.jobs.list]]
+        position = "Ecommerce book seller at Amazon"
+        dates = "2016-2016"
+        link = "#"
+        company = "Amazon Seller"
 
     # Projects section
     [params.projects]
@@ -104,14 +129,14 @@ publishDir= "docs"
         title = "Projects"
 
         [[params.projects.list]]
-        title = "Awesome Project 1"
+        title = "Building website for agency"
         url = "#"
-        description = "Description of the *awesome* project 1"
+        description = "Building a website for a local tax agency, creating social accounts and building their internet presence using tools such as Google Business and Google Search Console. You can check their website at: https://gestoriasbaratas.es/"
 		
 		[[params.projects.list]]
-        title = "Awesome Project 2"
+        title = "Personal Website"
         url = "#"
-        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "Build my personal website where you can find all the services I'm oferring. I have used the Hugo templates but also customized it on my taste. You can check the website at: https://nikovenag.com/"
 
     # Skills section
     [params.skills]
