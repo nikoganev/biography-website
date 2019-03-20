@@ -63,6 +63,14 @@ publishDir= "docs"
         language = "Catalan"
         level = "Fluent"
 
+        [[params.language.list]]
+        language = "Bulgarian"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "Russian"
+        level = "Basic"
+
     # Interests section
     [params.hobbies]
         title = "Hobbies"
