@@ -90,37 +90,37 @@ publishDir= "docs"
         [[params.jobs.list]]
         position = "System Engineer"
         dates = "2018 - *Present*"
-		link = "www.finos.org"
+		link = "https://www.finos.org"
         company = "FINOS - Fintech Open Source Foundation"
 
         [[params.jobs.list]]
         position = "System Engineer"
         dates = "2017 - 2018"
-		link = "#"
+		link = "https://symphony.foundation"
         company = "Symphony Foundation"
         
         [[params.jobs.list]]
         position = "Front End Developer"
         dates = "2017 - 2017"
-        link = "#"
+        link = "https://symphony.foundation"
         company = "Symphony Foundation"
 
         [[params.jobs.list]]
         position = "Mobile App Developer"
         dates = "2016 - 2016"
-        link = "#"
+        link = ""
         company = "Self employed"
 
         [[params.jobs.list]]
         position = "Video Editor Youtube"
         dates = "2014-2016"
-        link = "#"
+        link = "https://youtube.com"
         company = "Youtube Creator"
 
         [[params.jobs.list]]
         position = "Ecommerce book seller at Amazon"
         dates = "2016-2016"
-        link = "#"
+        link = "https://sellercentral.amazon.com/gp/homepage.html"
         company = "Amazon Seller"
 
     # Projects section
@@ -130,12 +130,12 @@ publishDir= "docs"
 
         [[params.projects.list]]
         title = "Building website for agency"
-        url = "#"
+        url = "https://gestoriasbaratas.es/"
         description = "Building a website for a local tax agency, creating social accounts and building their internet presence using tools such as Google Business and Google Search Console. You can check their website at: https://gestoriasbaratas.es/"
 		
 		[[params.projects.list]]
         title = "Personal Website"
-        url = "#"
+        url = "https://nikovenag.com/"
         description = "Build my personal website where you can find all the services I'm oferring. I have used the Hugo templates but also customized it on my taste. You can check the website at: https://nikovenag.com/"
 
     # Skills section
@@ -144,13 +144,33 @@ publishDir= "docs"
         title = "Skills"
 
         [[params.skills.list]]
-        skill = "Skill 1, Skill 2"
+        skill = "Web Development"
+        skillrating = 95
+
+        [[params.skills.list]]
+        skill = "Front End - Bootstrap, HTML, CSS"
         skillrating = 95 # out of 100
                 
         [[params.skills.list]]
-        skill = "Skill 3"
-        skillrating = 90
+        skill = "Backend - Python, MySQL"
+        skillrating = 40 # out of 100
+
+        [[params.skills.list]]
+        skill = "Javascript"
+        skillrating = 40
 		
         [[params.skills.list]]
-        skill = "Skill 4"
+        skill = "Cloud computing - AWS(Cloud, Security, Developer, SysOps"
+        skillrating = 50
+
+        [[params.skills.list]]
+        skill = "CI/CD - TravisCI, Jenkins"
+        skillrating = 70
+
+        [[params.skills.list]]
+        skill = "Mobile Applications - jQuery, Cordova"
         skillrating = 80
+
+        [[params.skills.list]]
+        skill = "Version Control - Github"
+        skillrating = 95

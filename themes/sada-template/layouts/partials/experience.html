@@ -4,7 +4,7 @@
 <dl>
     <dt>{{ .position }}</dt>
     <dd class="mb-0 ml-3">{{ .dates | markdownify }}</dd>
-    <dd class="mb-0 ml-3">{{ if .link }}<a class="text-warning" href="{{ .link }}">{{ .company }}</a>{{ else }} {{ .company }} {{ end }}</dd>
+    <dd class="mb-0 ml-3">{{ if .link }}<a class="text-warning" href="{{ .link }}" target="_blank">{{ .company }}</a>{{ else }} {{ .company }} {{ end }}</dd>
     <dd class="mb-0 ml-3">{{ .details | markdownify }}</dd>
 </dl>
 {{ end }}
